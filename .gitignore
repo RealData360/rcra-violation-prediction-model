@@ -1,0 +1,13 @@
+# Large raw data: download from EPA ECHO (see data/README.md)
+data/*.csv
+data/*.zip
+
+# Trained model files (large, tied to one scikit-learn version)
+models/
+
+# Python / Jupyter
+.ipynb_checkpoints/
+__pycache__/
+.venv/
+.env
+.DS_Store
