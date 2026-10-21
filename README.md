@@ -147,7 +147,7 @@ labels = le.inverse_transform(pipe.predict(new_df[art["features"]]))
 U.S. EPA ECHO, RCRA data downloads (https://echo.epa.gov/tools/data-downloads). Public data; this project is independent and not affiliated with or endorsed by EPA.
 
 ## AI Assistance
-I wrote and ran the notebook code myself. I used Claude as a tutor and reviewer for explanations and debugging, and to help draft and edit parts of this README. I am responsible for the content and can explain every step.
+I wrote and ran the notebook code myself. I used Claude clean up code formatting, as a tutor and reviewer for explanations and debugging, and to help draft and edit parts of this README. I am responsible for the content.
 
 ## Author and license
 
