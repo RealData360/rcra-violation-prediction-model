@@ -32,7 +32,7 @@ Class weighting is what moves the score. Without it, the models mostly predict "
 
 ![Cross-validation comparison](figures/cv_comparison.png)
 
-Class weighting costs accuracy (0.722 to 0.383) and recall on "No Violation," but recall rises for the violation classes (Figure 2). [VERIFY: confirm on your chart that recall improved for every non-majority class.]
+Class weighting costs accuracy (0.722 to 0.383) and recall on "No Violation," but recall rises for the violation classes (Figure 2). 
 
 **Figure 2: Per-class recall on the test set, weighted vs. unweighted**
 
