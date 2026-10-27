@@ -127,7 +127,7 @@ pip install -r requirements.txt
 
 1. Download the RCRA data file from EPA ECHO and place it in `data/` as described in [`data/README.md`](data/README.md).
 2. Start JupyterLab and open `RCRA_Compliance_Violation_Prediction_Model.ipynb`.
-3. Run **Restart Kernel and Run All Cells**. Runtime: [FILL IN, the tuning step is the slowest part].
+3. Run **Restart Kernel and Run All Cells**. Runtime: The tuning step is the slowest part.
 
 Results are fixed by the random seeds (`RANDOM_STATE = 42`) and the pinned package versions; a different data download may give different numbers. Figures are written to `figures/` and the fitted model to `models/champion.joblib` (not tracked in git).
 
